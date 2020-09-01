@@ -1,0 +1,54 @@
+.card {
+  justify-self: center;
+  border-radius: 10px;
+  width: max-content;
+  width: 90%;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.card-topbar {
+  display: flex;
+  justify-content: space-between;
+}
+.download {
+  background: rgb(241 243 244);
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 3.5rem;
+  /* width: min(20%, 3rem); */
+  width: 18%;
+  color: #00de00;
+}
+card-bottombar {
+  background: #404b55;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.cardtitle {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+.genre {
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.blank {
+  width: 100%;
+  border-radius: 50px;
+  height: 0.4rem;
+  background: var(--light-bg-color);
+}
+audio {
+  height: 40px;
+  width: 80%;
+}
+.deletecard {
+  display: flex;
+  justify-content: space-between;
+}

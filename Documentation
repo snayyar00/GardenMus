@@ -1,0 +1,49 @@
+Project Name - MusGarden
+Project Description - MusGarden is fully functional audio sharing website. People can upload
+new music, download music,rate and categorise them.
+The project contains the feature of downloading music upon logging in, also after logging in
+people can upload music and rate them. Also the music shows up in the main homepage.
+
+Admin Features - admin can upload, download ,see as a user and also delete music.
+
+
+How to run the website
+-First create a database of name = garden
+-Import the sql file in it 
+- Copy MusGarden folder to Htdocs 
+- run through localhost SUCH AS http://localhost/gardenmus/index.php
+
+
+
+||-It is well organized and structured website with very minimum chances of security breach or 
+sql injection
+
+||-Music and their details are stored Dynamically in the database. Every user has access to it,
+with upload priveledges. While admin holds all the priveledges such as adding and deleting.
+
+||- Form validation is enabled while login, registring, admin-login, also while uploading the music.
+Some of the forms go through HTML validation and then SQL validation.
+
+||- User can add new music to the database, while also update thier info.
+
+||- Animation is done in the nvabar.
+
+||Gridbox - Can be seen all around the website.
+
+||Javascript functionality can be seen in menu buttons and on click events.
+
+||Website was made accesible by using approraite bars.
+
+///*************************************************************************************************\\
+                                            Sources
+Image from -- S., Mark. “Photo by MARK S. on Unsplash.”
+ Beautiful Free Images &amp; Pictures, 3 Jan. 2017, unsplash.com/photos/T3mKJXfdims.
+
+
+ Scroll Js and jquery - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_smooth_scroll_jquery
+
+ PHP validation 
+Screenshot @ -https://ibb.co/6JXTDVv
+
+CSS Validation
+Screenshot @ -https://ibb.co/zNjjq1x

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309.334" height="84"
+  viewBox="0 0 309.334 84">
+  <defs>
+    <style>
+      * {
+        fill: white;
+      }
+    </style>
+    <filter id="select-bg" x="0" y="0" width="254" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g id="Group_174" data-name="Group 174" transform="translate(1 -576)">
+
+    <path id="Icon_awesome-play-circle" data-name="Icon awesome-play-circle"
+      d="M4.681,4.459c-6.908,6.013-5.537,51.383,0,56.875s51.093,5.321,56.87,0,6.082-51.009,0-56.88S11.589-1.554,4.681,4.459Zm41.7,31.19L26.2,47.23a2.757,2.757,0,0,1-4.094-2.408V20.971A2.759,2.759,0,0,1,26.2,18.563L46.386,30.833A2.761,2.761,0,0,1,46.386,35.649Z"
+      transform="translate(308.334 582) rotate(90)" />
+  </g>
+</svg>
